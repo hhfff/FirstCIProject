@@ -35,7 +35,7 @@ public class TestRentalCalculator {
 	}
 	
 	@Test
-	//TC6 : First timer, Toyota Wish, 3 Days, expect $240.00
+	//TC6 : Not timer, Toyota Wish, 3 Days, expect $240.00
 	public void testTC6() {
 		assertEquals("TC6 failed", RentalCalculator.carRental("Toyota Wish", 3, false), 240.00, 0.00);
 	}
